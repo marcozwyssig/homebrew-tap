@@ -3,8 +3,8 @@ class Simplon < Formula
 
   desc "Delivery orchestrator for any software component that follows a CI/CD flow"
   homepage "https://github.com/marcozwyssig/simplon"
-  url "https://files.pythonhosted.org/packages/f8/f0/27f510033aee291195da4781a8e092abc3f5c928a5f3615675454aaf428d/simplon-0.48.0-py3-none-any.whl", using: :nounzip
-  sha256 "449ef1271709479c706d0b340dae7d3ce8e4b18e23378fbd4bbad01e3c870fb2"
+  url "https://files.pythonhosted.org/packages/5c/e8/f2eab5f078c4b7b1c9b5e63a15c4f01e94e0277b4be75909ccddb5750eb2/simplon-0.49.0-py3-none-any.whl", using: :nounzip
+  sha256 "dd6ef9252c11327dc68d28c387b5ce7dae2aee4670e9fe81e37c70638188e0ba"
   license "MIT"
 
   depends_on "cryptography"
