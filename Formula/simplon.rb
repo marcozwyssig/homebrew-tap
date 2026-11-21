@@ -3,8 +3,8 @@ class Simplon < Formula
 
   desc "Delivery orchestrator for any software component that follows a CI/CD flow"
   homepage "https://github.com/marcozwyssig/simplon"
-  url "https://files.pythonhosted.org/packages/2a/00/9dbd49900012c31a099088107dd4291f74c574af515349bf5f1734071d63/simplon-0.47.0-py3-none-any.whl", using: :nounzip
-  sha256 "ba9b52ddef563c6f2c85fbbf523541224f0c55b1f1ed9eb19ce24193cd28a46f"
+  url "https://files.pythonhosted.org/packages/f8/f0/27f510033aee291195da4781a8e092abc3f5c928a5f3615675454aaf428d/simplon-0.48.0-py3-none-any.whl", using: :nounzip
+  sha256 "449ef1271709479c706d0b340dae7d3ce8e4b18e23378fbd4bbad01e3c870fb2"
   license "MIT"
 
   depends_on "cryptography"
@@ -14,8 +14,8 @@ class Simplon < Formula
   depends_on "python@3.14"
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/fd/11/b524cbd9bbdaca58608e4cf4053fd463417549e1959fa8d3aa18319f9555/certifi-2026.10.23.tar.gz"
-    sha256 "a9895e6e2758b371e0545e321a3a8fd1fcfd9829ada8824a936dfb16aaaf36cd"
+    url "https://files.pythonhosted.org/packages/51/33/4cd27639502f010084bcef7a2036391dd637439901341ce1a530f36f6e51/certifi-2026.11.20.tar.gz"
+    sha256 "af1cb240a8133f105aa52684a3a3258339d7f2fd0bd4e2812698ff5cf5588c4e"
   end
 
   resource "charset-normalizer" do
@@ -89,8 +89,8 @@ class Simplon < Formula
   end
 
   resource "pyyaml" do
-    url "https://files.pythonhosted.org/packages/05/8e/961c0007c59b8dd7729d542c61a4d537767a59645b82a0b521206e1e25c2/pyyaml-6.0.3.tar.gz"
-    sha256 "d76623373421df22fb4cf8817020cbb7ef15c725b9d5e45f17e189bfc384190f"
+    url "https://files.pythonhosted.org/packages/76/b8/c0b780928e2fb1c87e9e375818c6f121da2398b071012d1747be300b83f4/pyyaml-6.0.4.tar.gz"
+    sha256 "e24bf71af8a432d7808fabff134d38dfe16d3cbb41f2873bb4b1e42422de0a1a"
   end
 
   resource "requests" do
