@@ -3,8 +3,8 @@ class Simplon < Formula
 
   desc "Delivery orchestrator for any software component that follows a CI/CD flow"
   homepage "https://github.com/marcozwyssig/simplon"
-  url "https://files.pythonhosted.org/packages/d9/e0/1e5f107a8d92e8e7ac565bf5bb9edf43b38e07babea10fa953113d3d69dd/simplon-0.50.0-py3-none-any.whl", using: :nounzip
-  sha256 "a43cc9f01a70c0f1aa886b87e93677aa2f239fc6ac3f1d924da72a6e940b5820"
+  url "https://files.pythonhosted.org/packages/ee/6b/b65071fbcdf7e9a07cb52753690e8e943de92a0007a29ce6420d53ed4a36/simplon-0.51.0-py3-none-any.whl", using: :nounzip
+  sha256 "3792020ccd68e556551cadac5e28eca000d72259ee7aae7fbe4792130ff45af9"
   license "MIT"
 
   depends_on "cryptography"
@@ -19,8 +19,8 @@ class Simplon < Formula
   end
 
   resource "charset-normalizer" do
-    url "https://files.pythonhosted.org/packages/33/1c/f41d4e74c28ab327ff3acd36053f7ea506c55872d7a90b0fa71aa3ab0c89/charset_normalizer-3.5.2.tar.gz"
-    sha256 "39de2a259fc954455c57274dc94c79d5842774e1247a016aff30bc0efed0f4ef"
+    url "https://files.pythonhosted.org/packages/c2/c3/cae6d3bdefd96a941ffc247c714ac4babc488a69012e11c058f6c17c6c47/charset_normalizer-3.5.3.tar.gz"
+    sha256 "a250888753faa289e2997962fbb17c4960cbdb58575533ca6fceee68c224bdff"
   end
 
   resource "click" do
